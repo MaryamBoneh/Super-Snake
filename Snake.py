@@ -74,7 +74,7 @@ class Snake():
         
     def game_over(self):
         self.speed = 0
-        font_go = pygame.font.Font('Assignment11/assets/font/ALGER.ttf', 46)
+        font_go = pygame.font.Font('assets/font/ALGER.ttf', 46)
         text_go = font_go.render('Game Over!', True, (255, 255, 255), (0, 0, 0))
         textRect_go = text_go.get_rect()
         textRect_go.center = (300, 300)

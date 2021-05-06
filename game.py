@@ -10,7 +10,7 @@ if __name__ == "__main__":
 
     dsply = pygame.display.set_mode((width, height))
     pygame.display.set_caption('Super Snake') 
-    bg = pygame.image.load("Assignment11/assets/img/background.png")
+    bg = pygame.image.load("assets/img/background.png")
     clock = pygame.time.Clock()
     
     snake = Snake(dsply)
@@ -19,7 +19,7 @@ if __name__ == "__main__":
     bomb = Bomb(dsply)
     
     # Show Score Text
-    font = pygame.font.Font('Assignment11/assets/font/ALGER.ttf', 32)
+    font = pygame.font.Font('assets/font/ALGER.ttf', 32)
     text = font.render('Score: 0', True, (255, 255, 255))
     textRect = text.get_rect()
     textRect.center = (width // 2, 30)

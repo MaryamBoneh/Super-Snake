@@ -14,7 +14,7 @@ class Apple(Object):
         super().__init__(display)
 
     def show(self):
-        apple_pic = pygame.image.load("Assignment11/assets/img/apple.png")
+        apple_pic = pygame.image.load("assets/img/apple.png")
         self.dsply.blit(apple_pic, (self.x, self.y))
     
         
@@ -23,7 +23,7 @@ class Pear(Object):
         super().__init__(display)
 
     def show(self):
-        pear_pic = pygame.image.load("Assignment11/assets/img/pear.png")
+        pear_pic = pygame.image.load("assets/img/pear.png")
         self.dsply.blit(pear_pic, (self.x, self.y))
         
         
@@ -32,6 +32,6 @@ class Bomb(Object):
         super().__init__(display)
 
     def show(self):
-        bomb_pic = pygame.image.load("Assignment11/assets/img/bomb.png")
+        bomb_pic = pygame.image.load("assets/img/bomb.png")
         self.dsply.blit(bomb_pic, (self.x, self.y))
      
