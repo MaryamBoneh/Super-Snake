@@ -1,1 +1,1 @@
-![Super Snake](https://user-images.githubusercontent.com/72157067/117335733-b63f2200-aeb0-11eb-80c5-ebb6a9cc2aca.png)
+![snake](https://user-images.githubusercontent.com/72157067/117468640-23fb5480-af6a-11eb-95f7-f2524e658179.png)
